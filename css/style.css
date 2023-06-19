@@ -23,8 +23,6 @@ img{
 .container-small{
     height: 200px;
     width: 600px;
-    margin-right: auto;
-    margin-left: auto;
     padding: 0 15px;
     background-color: pink;
 }
@@ -32,8 +30,12 @@ img{
 .container-normal{
     height: 350px;
     width: 900px;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+.container-big{
+    height: 500px;
+    width: 900px;
+    background-color: green;
 }
 
 .col1{
@@ -54,6 +56,11 @@ header{
     min-width: 1000px;
     background-color: aqua;
     min-height: 80px;
+}
+
+.big-section{
+    min-height: 600px;
+    min-width: 1000px;
 }
 
 section{
