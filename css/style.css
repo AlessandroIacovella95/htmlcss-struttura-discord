@@ -13,10 +13,11 @@ img{
 /* utils */
 
 .container{
-    min-width: 1000px;
+    min-width: 900px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;
+    background-color: goldenrod;
 }
 
 .container-small{
@@ -28,6 +29,26 @@ img{
     background-color: pink;
 }
 
+.container-normal{
+    height: 350px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col1{
+    height: 100%;
+    width: 65%;
+    background-color: blue;
+}
+
+.col2{
+    height: 100%;
+    width: 35%;
+    background-color:pink;
+}
+
+
 header{
     width:100%;
     min-width: 1000px;
@@ -36,7 +57,7 @@ header{
 }
 
 section{
-    min-height: 250px;
+    min-height: 400px;
     min-width:1000px;   
 }
 
@@ -57,10 +78,6 @@ section{
     justify-content: center;
 }
 
-.color{
-    background-color: goldenrod;
-}
-
 .align-center{
     align-items: center;
 }
@@ -68,3 +85,4 @@ section{
 .bg-color{
    background-color: blue; 
 }
+
