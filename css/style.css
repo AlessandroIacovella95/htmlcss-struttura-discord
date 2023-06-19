@@ -20,22 +20,6 @@ img{
     background-color: goldenrod;
 }
 
-.container-footer{
-    min-width: 900px;
-    height: 30px;
-    background-color:darkslateblue;
-    border-top: 2px solid white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-}
-
-.container-f-small{
-    min-width: 900px;
-    height: 50px;
-    background-color:goldenrod;
-}
-
 .container-small{
     height: 200px;
     width: 600px;
@@ -46,14 +30,33 @@ img{
 .container-normal{
     height: 350px;
     width: 900px;
+}
+
+.container-footer-top{
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .container-big{
     height: 500px;
     width: 900px;
     background-color: green;
+}
+
+.container-footer-bottom{
+    height: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    border-top: 2px solid white;
+}
+
+.container-s-f{
+    min-height: 80px;
+    min-width: 900px;
+    background-color: aqua;
 }
 
 .col1{
@@ -116,7 +119,7 @@ section{
 
 footer{
     background-color:darkslateblue;
-    height: 600px;
+    height: 100%;
     min-width: 900px;
 }
 
@@ -142,9 +145,11 @@ footer{
 .logo-footer{
     padding-left: 15px;
     padding-right: 15px;
+    background-color: pink;
 }
 
-.bottone-footer{
+.botton-footer{
     padding-left: 15px;
     padding-right: 15px;
+    background-color: pink;
 }
