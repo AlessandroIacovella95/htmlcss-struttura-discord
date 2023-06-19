@@ -65,7 +65,6 @@ section{
     display: flex;
 }
 
-
 .debug{
     border: 2px dashed black;
 }
@@ -86,3 +85,6 @@ section{
    background-color: blue; 
 }
 
+.color{
+    background-color: lightgray;
+}
