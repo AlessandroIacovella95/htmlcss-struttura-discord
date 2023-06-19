@@ -1,0 +1,28 @@
+/* generics */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* utils */
+
+.container{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-left: auto;
+    padding: 0 15px;
+}
+
+.flex{
+    display: flex;
+}
+
+.debug{
+    border: 2px dashed black;
+}
