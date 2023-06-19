@@ -13,8 +13,8 @@ img{
 /* utils */
 
 .container{
-    max-width: 1180px;
-    margin-left: auto;
+    min-width: 1000px;
+    margin-right: auto;
     margin-left: auto;
     padding: 0 15px;
 }
@@ -23,6 +23,26 @@ img{
     display: flex;
 }
 
+
 .debug{
     border: 2px dashed black;
+}
+
+header{
+    width:100%;
+    min-width: 1000px;
+    background-color: aqua;
+    min-height: 80px;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.color{
+    background-color: goldenrod;
+}
+
+.align-center{
+    align-items: center;
 }
