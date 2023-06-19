@@ -20,6 +20,22 @@ img{
     background-color: goldenrod;
 }
 
+.container-footer{
+    min-width: 900px;
+    height: 30px;
+    background-color:darkslateblue;
+    border-top: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.container-f-small{
+    min-width: 900px;
+    height: 50px;
+    background-color:goldenrod;
+}
+
 .container-small{
     height: 200px;
     width: 600px;
@@ -30,6 +46,8 @@ img{
 .container-normal{
     height: 350px;
     width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-big{
@@ -73,7 +91,7 @@ section{
 }
 
 .debug{
-    border: 2px dashed black;
+    border: 1px dashed black;
 }
 
 .justify-between{
@@ -94,4 +112,39 @@ section{
 
 .color{
     background-color: lightgray;
+}
+
+footer{
+    background-color:darkslateblue;
+    height: 600px;
+    min-width: 900px;
+}
+
+.f-col{
+    height:400px;
+    width: 300px;
+    background-color: pink;
+    margin-top: 20px;
+}
+
+.f-col2{
+    height: 400px;
+    width:600px ;
+    background-color: lightskyblue;
+    margin-top: 20px;
+}
+
+.colu1, .colu2, .colu3, .colu4{
+    height: 100%;
+    width: 25%;
+}
+
+.logo-footer{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bottone-footer{
+    padding-left: 15px;
+    padding-right: 15px;
 }
