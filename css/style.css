@@ -45,18 +45,13 @@ img{
     background-color: green;
 }
 
-.container-footer-bottom{
-    height: 50px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto; 
-    border-top: 2px solid white;
-}
-
 .container-s-f{
-    min-height: 80px;
-    min-width: 900px;
+    min-height: 60px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: aqua;
+    margin-top: 15px;
 }
 
 .col1{
@@ -71,7 +66,6 @@ img{
     background-color:pink;
 }
 
-
 header{
     width:100%;
     min-width: 1000px;
@@ -82,6 +76,12 @@ header{
 .big-section{
     min-height: 600px;
     min-width: 1000px;
+}
+
+.container-footer-bottom{
+    min-height: 100px;
+    min-width: 1000px;
+    border-top: 1px solid white;  
 }
 
 section{
