@@ -19,13 +19,13 @@ img{
     padding: 0 15px;
 }
 
-.flex{
-    display: flex;
-}
-
-
-.debug{
-    border: 2px dashed black;
+.container-small{
+    height: 200px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    background-color: pink;
 }
 
 header{
@@ -35,8 +35,26 @@ header{
     min-height: 80px;
 }
 
+section{
+    min-height: 250px;
+    min-width:1000px;   
+}
+
+.flex{
+    display: flex;
+}
+
+
+.debug{
+    border: 2px dashed black;
+}
+
 .justify-between{
     justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
 }
 
 .color{
@@ -45,4 +63,8 @@ header{
 
 .align-center{
     align-items: center;
+}
+
+.bg-color{
+   background-color: blue; 
 }
