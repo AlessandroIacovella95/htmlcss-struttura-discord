@@ -12,6 +12,54 @@ img{
 
 /* utils */
 
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.debug{
+    border: 1px dashed black;
+}
+
+header{
+    width:100%;
+    min-width: 1000px;
+    background-color: aqua;
+    min-height: 80px;
+}
+
+footer{
+    background-color:darkslateblue;
+    height: 100%;
+    width: 100%;
+    min-width: 1000px;
+}
+
+/* sezioni  */
+
+section{
+    min-height: 400px;
+    min-width:1000px;   
+}
+
+.big-section{
+    min-height: 600px;
+    min-width: 1000px;
+}
+
+/* container */
+
 .container{
     min-width: 900px;
     margin-right: auto;
@@ -32,6 +80,14 @@ img{
     width: 900px;
 }
 
+.container-big{
+    height: 500px;
+    width: 900px;
+    background-color: green;
+}
+
+/* container footer */
+
 .container-footer-top{
     width: 900px;
     margin-left: auto;
@@ -39,10 +95,10 @@ img{
     margin-bottom: 30px;
 }
 
-.container-big{
-    height: 500px;
-    width: 900px;
-    background-color: green;
+.container-footer-bottom{
+    min-height: 100px;
+    min-width: 1000px;
+    border-top: 1px solid white;  
 }
 
 .container-s-f{
@@ -53,6 +109,8 @@ img{
     background-color: aqua;
     margin-top: 15px;
 }
+
+/* column main section */
 
 .col1{
     height: 100%;
@@ -66,48 +124,7 @@ img{
     background-color:pink;
 }
 
-header{
-    width:100%;
-    min-width: 1000px;
-    background-color: aqua;
-    min-height: 80px;
-}
-
-.big-section{
-    min-height: 600px;
-    min-width: 1000px;
-}
-
-.container-footer-bottom{
-    min-height: 100px;
-    min-width: 1000px;
-    border-top: 1px solid white;  
-}
-
-section{
-    min-height: 400px;
-    min-width:1000px;   
-}
-
-.flex{
-    display: flex;
-}
-
-.debug{
-    border: 1px dashed black;
-}
-
-.justify-between{
-    justify-content: space-between;
-}
-
-.justify-center{
-    justify-content: center;
-}
-
-.align-center{
-    align-items: center;
-}
+/* color */
 
 .bg-color{
    background-color: blue; 
@@ -117,12 +134,7 @@ section{
     background-color: lightgray;
 }
 
-footer{
-    background-color:darkslateblue;
-    height: 100%;
-    width: 100%;
-    min-width: 1000px;
-}
+/* column footer */
 
 .f-col{
     height:400px;
@@ -139,9 +151,10 @@ footer{
 }
 
 .colu1, .colu2, .colu3, .colu4{
-    height: 100%;
     width: 25%;
 }
+
+/* logo bottom footer */
 
 .logo-footer{
     padding-left: 15px;
